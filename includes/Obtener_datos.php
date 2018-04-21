@@ -1,11 +1,6 @@
 <?php
 
-
-
-
-
-
-function get_nodos_pagina()
+function get_nodos_pagina($str)
 {
     $curl = curl_init();
     $url = "https://www.previred.com/web/previred/indicadores-previsionales";
@@ -19,24 +14,36 @@ function get_nodos_pagina()
     $doc = new DOMDocument();
     $doc->loadHTML($resultado);
 
-    return $doc->getElementsByTagName("td");
+    return $doc->getElementsByTagName($str);
 
 }
 
-// Obtener el UF
+/*
+ * El índice de los nodos está determinado por la posición de la etiqueta pasada como parámetro en get_nodos_pagina()
+ *
+ */
+
+
+
+// Obtener UF
 function get_UF()
 {
-    $nodos = get_nodos_pagina();
+    $nodos = get_nodos_pagina("td");
+    return substr($nodos->item(2)->nodeValue,2);
+}
 
-    $contador = 0;
-    foreach ($nodos as $nodo)
-    {
-        if($contador == 2){ // El UF se encuentra en el td 2.
-            echo substr($nodo->nodeValue, 2);
-            return;
-        }
-        $contador++;
+// Obtener UTM
+function get_UTM()
+{
+    $nodos = get_nodos_pagina("td");
+    return substr($nodos->item(9)->nodeValue,2);
 
-    }
+}
+
+// Obtener UTA
+function get_UTA()
+{
+    $nodos = get_nodos_pagina("td");
+    return substr($nodos->item(10)->nodeValue,2);
 }
 
