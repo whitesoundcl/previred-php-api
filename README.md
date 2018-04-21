@@ -1,2 +1,4 @@
 # previred-php-api
-API no oficial que facilita la obtención de los datos desde previred
+La API todavía se encuentra en desarrollo.
+
+API no oficial que facilita la obtención de los datos desde previred.
