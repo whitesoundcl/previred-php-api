@@ -47,3 +47,53 @@ function get_UTA()
     return substr($nodos->item(10)->nodeValue,2);
 }
 
+// Rentas topes imponibles:
+
+function get_RTI_AFP()
+{
+
+}
+
+function get_RTI_IPS()
+{
+
+}
+
+function get_RTI_seguro_cesantia()
+{
+
+}
+
+// Rentas mínimas imponibles
+function get_RMI_dependientes_independientes()
+{
+
+}
+
+function get_RMI_menores_mayores()
+{
+
+}
+
+function get_RMI_casa_particular()
+{
+
+}
+
+function get_RMI_fines_no_remuneracionales()
+{
+
+}
+
+// ahorro previsional voluntario
+
+function get_APV_mensual()
+{
+
+}
+
+function get_APV_anual()
+{
+
+}
+
