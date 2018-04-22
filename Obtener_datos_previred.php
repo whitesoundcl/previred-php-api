@@ -97,3 +97,33 @@ function get_APV_anual()
 
 }
 
+// DEPÓSITO CONVENIDO
+function get_deposito_convenido()
+{
+
+}
+
+// Seguro de cesantia (AFC)
+function get_AFC_indefinido(){}
+function get_AFC_indefinido_empleador(){}
+
+function get_AFC_fijo(){}
+
+function get_AFC_indefinido_mas(){}
+
+// AFP - TASA TRABAJADORES
+
+function get_tasa_AFP_DEP_capital(){}
+function get_tasa_AFP_INDEP_capital(){}
+function get_tasa_AFP_DEP_cuprum(){}
+function get_tasa_AFP_INDEP_cuprum(){}
+function get_tasa_AFP_DEP_habitat(){}
+function get_tasa_AFP_INDEP_habitat(){}
+function get_tasa_AFP_DEP_planvital(){}
+function get_tasa_AFP_INDEP_planvital(){}
+function get_tasa_AFP_DEP_provida(){}
+function get_tasa_AFP_INDEP_provida(){}
+function get_tasa_AFP_DEP_modelo(){}
+function get_tasa_AFP_INDEP_modelo(){}
+
+// 
