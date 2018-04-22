@@ -9,4 +9,7 @@ Se puede obtener actualmente:
 * Valor UTM
 * UTA
 
+# ¡Advertencia!
+Yo no recomiendo utilizar esta api para servicios en producción ya que cada cierto tiempo Previred puede cambiar de
+posición algunos datos en la página web, provocando lecturas erroneas. 
 
