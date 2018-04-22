@@ -51,56 +51,66 @@ function get_UTA()
 
 function get_RTI_AFP()
 {
-
+    $nodos = get_nodos_pagina("td");
+    return substr($nodos->item(13)->nodeValue,2);
 }
 
 function get_RTI_IPS()
 {
-
+    $nodos = get_nodos_pagina("td");
+    return substr($nodos->item(15)->nodeValue,2);
 }
 
 function get_RTI_seguro_cesantia()
 {
-
+    $nodos = get_nodos_pagina("td");
+    return substr($nodos->item(17)->nodeValue,2);
 }
 
 // Rentas mínimas imponibles
 function get_RMI_dependientes_independientes()
 {
-
+    $nodos = get_nodos_pagina("td");
+    return substr($nodos->item(20)->nodeValue,2);
 }
 
 function get_RMI_menores_mayores()
 {
-
+    $nodos = get_nodos_pagina("td");
+    return substr($nodos->item(22)->nodeValue,2);
 }
 
 function get_RMI_casa_particular()
 {
-
+    $nodos = get_nodos_pagina("td");
+    return substr($nodos->item(24)->nodeValue,2);
 }
 
 function get_RMI_fines_no_remuneracionales()
 {
-
+    $nodos = get_nodos_pagina("td");
+    return substr($nodos->item(26)->nodeValue,2);
 }
 
 // ahorro previsional voluntario
 
 function get_APV_mensual()
 {
-
+    $nodos = get_nodos_pagina("td");
+    return substr($nodos->item(29)->nodeValue,2);
 }
 
 function get_APV_anual()
 {
-
+    $nodos = get_nodos_pagina("td");
+    return substr($nodos->item(31)->nodeValue,2);
 }
 
 // DEPÓSITO CONVENIDO
 function get_deposito_convenido()
 {
-
+    $nodos = get_nodos_pagina("td");
+    return substr($nodos->item(34)->nodeValue,2);
 }
 
 // Seguro de cesantia (AFC)

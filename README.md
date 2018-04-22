@@ -8,6 +8,12 @@ Se puede obtener actualmente:
 * Valor UF (Mes reciente)
 * Valor UTM
 * UTA
+* datos de Rentas topes imponibles
+* rentas minimas imponibles
+* ahorro previsional voluntario
+* deposito convenido
+
+
 
 # ¡Advertencia!
 Yo no recomiendo utilizar esta api para servicios en producción ya que cada cierto tiempo Previred puede cambiar de
