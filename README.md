@@ -12,6 +12,7 @@ Se puede obtener actualmente:
 * rentas minimas imponibles
 * ahorro previsional voluntario
 * deposito convenido
+* AFC
 
 
 

@@ -114,12 +114,26 @@ function get_deposito_convenido()
 }
 
 // Seguro de cesantia (AFC)
-function get_AFC_indefinido(){}
-function get_AFC_indefinido_empleador(){}
+function get_AFC_contrato_indefinido_empleador(){
+    $nodos = get_nodos_pagina("td");
+    return substr($nodos->item(41)->nodeValue,0,-6);
+}
 
-function get_AFC_fijo(){}
+function get_AFC_contrato_indefinido_trabajador(){
+    $nodos = get_nodos_pagina("td");
+    return substr($nodos->item(42)->nodeValue,0,-6);
+}
 
-function get_AFC_indefinido_mas(){}
+
+function get_AFC_contrato_plazo_fijo(){
+    $nodos = get_nodos_pagina("td");
+    return substr($nodos->item(44)->nodeValue,0,-6);
+}
+
+function get_AFC_contrato_plazo_indefinido_mas(){
+    $nodos = get_nodos_pagina("td");
+    return substr($nodos->item(47)->nodeValue,0,-6);
+}
 
 // AFP - TASA TRABAJADORES
 
