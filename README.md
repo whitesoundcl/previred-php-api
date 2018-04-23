@@ -1,8 +1,7 @@
 # previred-php-api
-#### La API todavía se encuentra en desarrollo.
 
-API no oficial que facilita la obtención de los datos desde previred.
 
+API no oficial que facilita la obtención de los datos desde [Previred](https://www.previred.com/web/previred/indicadores-previsionales)
 Se puede obtener actualmente:
 <br>
 * Valor UF (Mes reciente)
