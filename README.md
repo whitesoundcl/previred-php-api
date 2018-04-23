@@ -2,7 +2,7 @@
 
 
 API no oficial que facilita la obtención de los datos desde [Previred](https://www.previred.com/web/previred/indicadores-previsionales)
-Se puede obtener actualmente:
+<br> Se puede obtener actualmente:
 <br>
 * Valor UF (Mes reciente)
 * Valor UTM
