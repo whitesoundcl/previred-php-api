@@ -13,6 +13,7 @@ Se puede obtener actualmente:
 * ahorro previsional voluntario
 * deposito convenido
 * AFC
+* Tabla afp
 
 
 

@@ -137,17 +137,55 @@ function get_AFC_contrato_plazo_indefinido_mas(){
 
 // AFP - TASA TRABAJADORES
 
-function get_tasa_AFP_DEP_capital(){}
-function get_tasa_AFP_INDEP_capital(){}
-function get_tasa_AFP_DEP_cuprum(){}
-function get_tasa_AFP_INDEP_cuprum(){}
-function get_tasa_AFP_DEP_habitat(){}
-function get_tasa_AFP_INDEP_habitat(){}
-function get_tasa_AFP_DEP_planvital(){}
-function get_tasa_AFP_INDEP_planvital(){}
-function get_tasa_AFP_DEP_provida(){}
-function get_tasa_AFP_INDEP_provida(){}
-function get_tasa_AFP_DEP_modelo(){}
-function get_tasa_AFP_INDEP_modelo(){}
+function get_tasa_AFP_DEP_capital(){
+    $nodos = get_nodos_pagina("td");
+    return substr($nodos->item(58)->nodeValue,0,-1);
+}
+function get_tasa_AFP_INDEP_capital(){
+    $nodos = get_nodos_pagina("td");
+    return substr($nodos->item(60)->nodeValue,0,-1);
+}
+function get_tasa_AFP_DEP_cuprum(){
+    $nodos = get_nodos_pagina("td");
+    return substr($nodos->item(62)>nodeValue,0,-1);
+}
+function get_tasa_AFP_INDEP_cuprum(){
+    $nodos = get_nodos_pagina("td");
+    return substr($nodos->item(64)->nodeValue,0,-1);
+}
+
+function get_tasa_AFP_DEP_habitat(){
+    $nodos = get_nodos_pagina("td");
+    return substr($nodos->item(66)->nodeValue,0,-1);
+}
+
+function get_tasa_AFP_INDEP_habitat(){
+    $nodos = get_nodos_pagina("td");
+    return substr($nodos->item(68)->nodeValue,0,-1);
+}
+function get_tasa_AFP_DEP_planvital(){
+    $nodos = get_nodos_pagina("td");
+    return substr($nodos->item(70)->nodeValue,0,-1);
+}
+function get_tasa_AFP_INDEP_planvital(){
+    $nodos = get_nodos_pagina("td");
+    return substr($nodos->item(72)->nodeValue,0,-1);
+}
+function get_tasa_AFP_DEP_provida(){
+    $nodos = get_nodos_pagina("td");
+    return substr($nodos->item(74)->nodeValue,0,-1);
+}
+function get_tasa_AFP_INDEP_provida(){
+    $nodos = get_nodos_pagina("td");
+    return substr($nodos->item(76)->nodeValue,0,-1);
+}
+function get_tasa_AFP_DEP_modelo(){
+    $nodos = get_nodos_pagina("td");
+    return substr($nodos->item(78)->nodeValue,0,-1);
+}
+function get_tasa_AFP_INDEP_modelo(){
+    $nodos = get_nodos_pagina("td");
+    return substr($nodos->item(80)->nodeValue,0,-1);
+}
 
 // 
