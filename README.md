@@ -14,7 +14,7 @@ API no oficial que facilita la obtención de los datos desde [Previred](https://
 * AFC
 * Tabla afp
 
-
+Faltan algunas cosas que arreglar en este proyecto, por lo tanto no creo que les funcione a la primera sin tener que meter mano a los archivos. Un día que tenga tiempo lo arreglaré.
 
 # ¡Advertencia!
 Yo no recomiendo utilizar esta api para servicios en producción ya que cada cierto tiempo Previred puede cambiar de
